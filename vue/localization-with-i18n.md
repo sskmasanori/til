@@ -13,9 +13,19 @@ window.Vue = vue;
 
 Vue.use(VueI18n);
 
+const messages = {
+    ja: {
+        keyName: require('relateive path to json lang file'),
+        keyName2: require('relateive path to json lang file2')
+    },
+    en: {
+
+    }
+}
+
 const i18n = new VueI18n({
     locale: 'ja',
-    messages: require({lang file path : '../../resources/lang/text.json'})
+    messages
 })
 
 new Vue({
@@ -24,22 +34,15 @@ new Vue({
 });
 ```
 
-resources/lang/text.json
+json lang file
 ```
 {
-    "ja": {
-        "button": {
-            "save": "保存",
-        },
-        "input": {
-            "required": "必ず入力してください",
-        }
+    "button": {
+        "save": "保存",
     },
-    "en": {
-        "button": {
-            "save": "Save",
-        },
-    },
+    "input": {
+        "required": "必ず入力してください",
+    }
 }
 ```
 
@@ -51,16 +54,16 @@ sample.vue
         ***
     </div>
     <div class="***">
-        <button class="***" @click="***">{{ $t('button.save') }}</button>
+        <button class="***" @click="***">{{ $t('keyname.button.save') }}</button>
     </div>
 
     ***
     <input
         class="***"
         type="***"
-        :placeholder="$t('input.required')">
+        :placeholder="$t('keyname.input.required')">
 </template>
 ```
 
-[vue-i18n公式ドキュメント : 言語の切り替え](https://kazupon.github.io/vue-i18n/guide/locale.html)
-[qiita : placeholderの多言語設定](https://qiita.com/FumioNonaka/items/138a60f4472ece69c192)
+[vue-i18n公式ドキュメント: 言語の切り替え](https://kazupon.github.io/vue-i18n/guide/locale.html)
+[qiita: placeholderの多言語設定](https://qiita.com/FumioNonaka/items/138a60f4472ece69c192)
