@@ -38,3 +38,13 @@ function shopping($item: string){
 $itemによって処理が変わる。ここでいう$itemがstateみたいなもの。
 ```
 [qiita: context?state?](https://qiita.com/dojyorin/items/0bd3ef167991cfc703b1)
+
+```
+REPL:
+Read Eval Print Loop。対話型実行環境。
+Read - キーボードから打ち込まれた命令を読み込む。
+Eval - 評価・実行。
+Print - 結果を表示する。
+Loop - それを繰り返す。
+ターミナルでの実行環境みたいな感じ。
+```
