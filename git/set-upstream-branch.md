@@ -1,5 +1,5 @@
 ## Set Upstream Branch
----
+
 ローカルブランチfeature/sample-functionからリモートへの初回push時
 ```
 > git push -u origin feature/sample-function

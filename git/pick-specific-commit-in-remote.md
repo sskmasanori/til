@@ -1,5 +1,5 @@
 ## pick up specific commit in remote
----
+
 リモートに存在する特定のコミットを、ローカルのブランチに反映させる。
 <br>
 <br>

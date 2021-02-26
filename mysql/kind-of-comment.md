@@ -1,5 +1,5 @@
 ## Kind Of Comment
----
+
 
 ```
 mysql> SELECT @@@;   # Comment

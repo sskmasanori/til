@@ -1,5 +1,5 @@
 ## Recommended Locator
----
+
 Locator : key to identity element from view.
 
 ```

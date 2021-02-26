@@ -1,5 +1,5 @@
 ## Glob Pattern
----
+
 ```
 - ab
     - sample1.ts

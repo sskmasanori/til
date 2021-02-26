@@ -1,5 +1,5 @@
 ## Hash File Method
----
+
  ファイルのハッシュ値を取得。
 
  [php公式: hash_file](https://www.php.net/manual/ja/function.hash-file.php)

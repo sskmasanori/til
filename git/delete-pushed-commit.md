@@ -1,5 +1,5 @@
 ## Delete Pushed Commit
----
+
 ログは残る
 ```
 > git revert {commit id} {commit id}

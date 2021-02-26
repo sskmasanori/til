@@ -1,5 +1,5 @@
 ## Terms
----
+
 ### case sensitive
 ```
 大文字小文字を区別

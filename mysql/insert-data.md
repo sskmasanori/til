@@ -1,5 +1,5 @@
 ## Insert Data
----
+
 
 ```
 INSERT INTO `table name` (`column1 `, `column2`) VALUES (`column1 value1`, `column2 value1`), (`column1 value2`, `column2 value2`);

@@ -1,5 +1,5 @@
 ## When Use Semicolon In JavaScript
----
+
 }で終わる場合は、基本的に;は省略できる。
 
 ```

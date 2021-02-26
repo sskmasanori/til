@@ -1,5 +1,5 @@
 ## content negotiation with header
----
+
 |  レクエストヘッダー  |  レスポンスヘッダー  |  ネゴシエーション対象  |
 | ---- | ---- | ---- |
 |  Accept  |  Content-Type  |  MINEタイプ  |

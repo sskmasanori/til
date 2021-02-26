@@ -1,5 +1,5 @@
 ## Chmod Command
----
+
 ファイルやディレクトリのpermission変更を行う。
 ```
 $ chmod 400 {file} or -r {directory}

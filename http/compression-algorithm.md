@@ -1,5 +1,5 @@
 ## compression algorithm
----
+
 ```
 br : Brotli
 compress : 

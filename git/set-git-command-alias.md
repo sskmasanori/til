@@ -1,5 +1,5 @@
 ## content negotiation with header
----
+
 ```
 > git status
 ↓

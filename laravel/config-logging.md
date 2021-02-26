@@ -1,5 +1,5 @@
 ## config/logging.php
----
+
 ```
 'default' => env('LOG_CHANNEL', 'stack'),
 // envファイルで'LOG_CHANNEL'があればそちらを使用。なければstack channelを使用。

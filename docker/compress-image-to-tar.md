@@ -1,5 +1,5 @@
 ## Compress Image To Tar File
----
+
 docker imageをtarファイルに圧縮、解凍。
 ```
 $ docker save {image} > {tar file}

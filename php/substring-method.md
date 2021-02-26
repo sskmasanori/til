@@ -1,5 +1,5 @@
 ## Substring Method
----
+
 ```
 $sample = "abcde";
 echo substr($sample,1,3);　// bcd
