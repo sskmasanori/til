@@ -1,5 +1,5 @@
 ## ESlint and Prettier Setting
-2020.02.27<br>
+2021.02.27<br>
 ESlintによる構文チェックとPrettierによる整形を併用する。
  - Prettierの整形機能は優秀。設定もシンプル。
  - ESlintによる整形を厳密に行うためには、複雑な設定が必要。
