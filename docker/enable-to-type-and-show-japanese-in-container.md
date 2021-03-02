@@ -1,10 +1,10 @@
-## Enable To Type And Show Japanese
-
-
+## Enable To Type And Show Japanese In Container
+2021.03.02
  - コンテナ内で、日本語が入力すらできない。
  - mysqlコンテナ内で、日本語が含まれるレコードを表示させると文字化けする。
 
-原因 : 日本語ロケールがない
+原因 : 日本語ロケールがない。
+
 ```
 (in the container)
 $ locale
@@ -40,10 +40,6 @@ ENV LANG=ja_JP.UTF-8 LANGUAGE=ja_JP:ja LC_ALL=ja_JP.UTF-8
 RUN localedef -f UTF-8 -i ja_JP ja_JP.utf8
 ```
 
-localesのインストール：
-
-
-
 日本語表示の文字化けは以下でも解消。
 ```
 (git bash)
@@ -54,3 +50,4 @@ $ chcp.com 65001 // utf-8に
 ```
 [windows コードページ](https://www.ipentec.com/document/windows-codepage-list)
 
+TODO: docker fileでやっていること
