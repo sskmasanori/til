@@ -1,4 +1,5 @@
-## Docker Command Docker Command Without Sudo
+## Docker Command Without Sudo
+ubuntuでdockerコマンドをsudo無しで実行したい。だった気がする。
 
 dockerグループを作成し、ユーザーを所属させる。
 ```
