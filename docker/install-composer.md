@@ -14,4 +14,6 @@ RUN ***
     php -r "unlink('composer-setup.php');"
 ```
 
-[qiita: DockerにComposerをインストールするベストプラクティス](https://qiita.com/yatsbashy/items/02bbbebbfe7e5a5976bc)
+```
+php -r "{php command}"
+```
