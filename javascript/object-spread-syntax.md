@@ -19,10 +19,9 @@ console.log(object2);
 // {first: 'val1', second: 'val2', third: 'val3'}
 ```
 
-Caution!
-```
+Caution!<br>
 {third: 'val3', forth: 'val4'}のように値がオブジェクトの時は、参照が渡される。
-
+```
 const object1 = {first: 'val1', second: {third: 'val3', forth: 'val4'}};
 const object2 = {...object1};
 
