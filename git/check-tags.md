@@ -1,11 +1,15 @@
-## Describe Tags
+## Check Tags
+2021.02.25
 
+注釈付き(annotated)タグを検索。
 ```
 $ git describe
+```
+軽量(lightweight)タグも検索対象に。
+```
 $ git describe --tags
 ```
- - git describeが対象とするタグは、注釈付き(annotated)タグ。
- - 対象に軽量(lightweight)タグを加えたい場合、--tagsオプション追加。
+
 ```
 // 1.0.2-32-g5ko90h2
 

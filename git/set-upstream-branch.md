@@ -1,11 +1,17 @@
 ## Set Upstream Branch
+2021.01.28
 
-ローカルブランチfeature/sample-functionからリモートへの初回push時
+初回push時
 ```
-> git push -u origin feature/sample-function
+$ git push -u origin {branch-name}
 ```
-ローカルfeature/sample-functionのupstreamブランチはリモートfeature/sample-functionとなる。
-次回コミット時、
+pushしたローカルブランチのUpstramブランチに、新規作成されたリモートブランチがセットされる。<br>
+
+次回コミット時から、
 ```
-> git push
+$ git push
+```
+Upstreamブランチの確認方法
+```
+$ git remote -vv
 ```
