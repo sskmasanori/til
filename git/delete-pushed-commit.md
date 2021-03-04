@@ -1,10 +1,16 @@
 ## Delete Pushed Commit
+2021.03.04
 
-ログは残る
+コミット履歴は残したい
 ```
-> git revert {commit id} {commit id}
+$ git revert {commit-id} {commit-id}
 
-and
+$ git push origin {branch-name}
+```
 
-> git push origin {branch name}
+残したくない(チームメンバーへの配慮が必要)
+```
+$ git reset --soft HEAD~{戻りたいコミットまでの数}
+
+$ git push -f origin {branch-name}
 ```
