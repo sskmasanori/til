@@ -3,9 +3,9 @@
 
 マージ済みのローカルブランチのみ削除
 ```
-$ git branch -d branch-name
+$ git branch -d {branch-name}
 ```
 どんなローカルブランチでも
 ```
-$ git branch -D branch-name
+$ git branch -D {branch-name}
 ```

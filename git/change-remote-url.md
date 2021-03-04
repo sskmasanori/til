@@ -4,9 +4,9 @@
 ```
 git remote -v
 
-// origin  git@github.com:hoge/before-repo.git (fetch)
-// origin  git@github.com:hoge/before-repo.git (push)
+// origin  git@github.com:hoge/old-repo.git (fetch)
+// origin  git@github.com:hoge/old-repo.git (push)
 ```
 ```
-$ git remote set-url origin git@github.com:hoge/after-repo.git
+$ git remote set-url origin {new-remote-url}
 ```
