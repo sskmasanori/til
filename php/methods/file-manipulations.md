@@ -1,4 +1,5 @@
-## Hash File Method
+## File Manipulations
+2021.02.23
 
 ファイル複製 [php公式: copy](https://www.php.net/manual/ja/function.copy.php)
 ```
