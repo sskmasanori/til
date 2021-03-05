@@ -6,7 +6,7 @@
 $ git cherry-pick {commit-id}
 ```
 
-利用シーン
+### Use Case
 ```
 // 例えば、リモートブランチfix/review-branchにおけるPRをレビューするとして。
 $ git fetch

@@ -15,8 +15,8 @@ useradd -m -s /bin/bash -u 1000 {user-name}
 
 [atmarkit: useraddコマンド](https://www.atmarkit.co.jp/ait/articles/1811/02/news035.html)
 
-### 使用シーン
-Dockerfile
+### Use Case
 ```
+(Dockerfile)
 RUN useradd -m -s /bin/bash -u 1000 {user name}
 ```
