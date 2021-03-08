@@ -80,4 +80,9 @@ Error: Stack "StackB" cannot consume a cross reference from stack "StackA".
 Cross stack references are only supported for stacks deployed to the same environment or between nested stacks and their parent stack
 ```
 TODO:<br>
-VPCはCIDRを設定しているが、StackBでもStackAで作成したVPCを作成すると、同じアカウントかつ同じリージョン内に同じCIDRを持つVPCが既に存在するということでエラーになる。(既存リソースがある場合、cloud formationはそのリソースを新規作成せずに既存を使ってくれるんじゃなかったっけ？)そもそもどこに作るかのデータが無いから分からんと言われているのか。
+VPCはCIDRを設定しているが、StackBでもStackAで作成したVPCを作成すると、同じアカウントかつ同じリージョン内に同じCIDRを持つVPCが既に存在するということで、deploy時にエラーになる(らしい)。<br>
+↓<br>
+既存リソースがある場合、cloud formationはそのリソースを新規作成せずに既存を使ってくれるんじゃなかったっけ？<br>
+↓<br>
+そもそも、同一アカウントかつ同一リージョン内で被っているCIDRを設定しようとしていることがまずいのか？<br>
+deploy時にconfigで設定したCIDRの値が各VPCに入る。違うスタック内で同じCIDRを使おうとしているからエラーになる？
