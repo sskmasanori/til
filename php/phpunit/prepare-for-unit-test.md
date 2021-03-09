@@ -24,7 +24,7 @@ $ composer require --dev phpunit/phpunit:~9.0
 },
 
 and then
-$ composer install
+$ composer update
 ```
 
 *2 ファイル名とクラス名:<br>
