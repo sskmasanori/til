@@ -35,7 +35,7 @@ description / overview
 ```
 ```
 
-### Use Case (if any)
+### Use Case / Solution (if any)
 ```
 ```
 
