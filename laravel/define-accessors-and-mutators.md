@@ -13,9 +13,9 @@ id | first_name | last_name
 ```
 
 ### Define Accessors
-```
 カラムの値を取得する際のフォーマットを定義する。
 
+```
 get{Attribute}Attribute
 ```
 
@@ -56,10 +56,10 @@ $fullName = $user->full_name;
 ```
 
 ### Define Mutators
-```
 カラムに値を入れる際のフォーマットを定義する。
 mutator: 突然変異誘発遺伝子
 
+```
 set{Attribute}Attribute
 ```
 ```
