@@ -8,9 +8,6 @@ Date
 
 Versions
 
-[Document1]()<br>
-[Document2]()
-
 ```
 Premise (if any)
 ```
@@ -38,6 +35,9 @@ description / overview
 ### Use Case / Solution (if any)
 ```
 ```
+
+[Document1]()<br>
+[Document2]()
 
 TODO: ***<br>
 TODO: ***
