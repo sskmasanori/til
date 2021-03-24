@@ -99,3 +99,12 @@ Google Cloudの記事では、Rolling Updateと表現されていた。
 ```
 [日経TECH: カナリアリリース](https://xtech.nikkei.com/atcl/nxt/keyword/18/00002/081900087/)<br>
 [Google Cloud: アプリケーションのデプロイとテストの戦略](https://cloud.google.com/solutions/application-deployment-and-testing-strategies?hl=ja#rolling_update_deployment_pattern)
+
+### Declarative programming / 宣言的プログラミング
+2021.03.24
+```
+何をやりたいかを書くプログラム方法。SQLなどが該当する。他のことなど知らん、俺はこのデータがほしいというように目的を一文で書くSQL。
+
+⇔ Imperative: 命令的・指示的。
+```
+[qiita: 宣言的？ Declarative?](https://qiita.com/Hiroyuki_OSAKI/items/f3f88ae535550e95389d)
