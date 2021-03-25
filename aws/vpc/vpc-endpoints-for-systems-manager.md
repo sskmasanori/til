@@ -13,7 +13,7 @@ AWS Systems Managerを利用するためには、以下AWSサービスへのVPC�
  - com.amazonaws.region.s3
  - (com.amazonaws.region.kms)
 
-[図: ec2messagesとssmmessagesについて](../images/ssmmessages_and_ec2messages.jpeg)<br>
+[図: ec2messagesとssmmessagesについて](../visualizations/20200325_ssmmessages_ec2messages.jpeg)<br>
 <br>
 [AWS公式: Systems Manager の VPC エンドポイントの作成](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/setup-create-vpc.html)<br>
 [AWS公式: SSM エージェントの使用](https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/ssm-agent.html)<br>
