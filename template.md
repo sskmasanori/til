@@ -3,7 +3,7 @@
 ## Topic Title
 Date
 
-Versions
+:Versions
 
 ```
 Premise (if any)
@@ -50,4 +50,8 @@ update topic - {topic-name}
 add image - {image-name}
 fix image - {image-name}
 update image - {image-name}
+```
+```
+fix template/readme - {part-name}
+update template/readme - {part-name}
 ```
