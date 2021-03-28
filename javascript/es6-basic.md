@@ -216,13 +216,13 @@ export default User;
 adminUser.js
 ```
 // 拡張子jsは省略可能。
-import User from '{path-to-user.js}';
+import User from "{path-to-user.js}";
 
 class AdminUser extends User {
     ***
 }
 ```
-変数や定数をexport/importすることも可能。<br>
+定数をexport/importすることも可能。変数はできないのかな？<br>
 user.js
 ```
 const name = 'taro';
@@ -231,10 +231,141 @@ export default name;
 ```
 import.js
 ```
-import name from 'path to user.js';
+import name from "path to user.js";
 
 // taro
 console.log(name);
+```
+
+use different name between export and import<br>
+user.js
+```
+class User {
+    ***
+}
+
+export defult User;
+```
+adminUser.js
+```
+import UserTemplate from "{path-to-user.js}"
+```
+
+export default constraints
+```
+const firstUser = ***;
+const secondUser = ***;
+
+export default firstUser;
+
+// NG。export defaultは１つのみ。
+export default secondUser;
+```
+
+multi export and import
+```
+const name = ***;
+const age = ***;
+
+export {name, age};
+```
+```
+import {name, age} from "{file-path}";
+
+// NG。exportされた名前に合わせる。
+import {userName, userAge};
+```
+
+### Package
+import package
+```
+import {const-name} from "{package-name}";
+```
+
+### Array Manipulation
+push
+```
+const array = [1,2,3];
+
+// [1,2,3,4]
+array.push(4);
+```
+forEach
+```
+const array = [1,2,3];
+
+// arrow function syntax
+array.forEach((number) => {
+    const doubledNumber = number*2;
+    console.log(doubledNumber);
+});
+```
+find
+```
+const array = [1,2,3];
+
+// 2
+const firstNumberOverOne = array.find((number) => {
+    return number > 1;
+});
+```
+filter
+```
+const array = [1,2,3];
+
+// [2,3]
+const allNumbersOverOne = array.filter((number) => {
+    return number > 1;
+});
+```
+find and filter against object array
+```
+const heros = [
+    {name: 'hero1', age: '30'},
+    {name: 'hero2', age: '19'}
+];
+
+// {name: 'hero2', age: '19'}
+const firstYoungHero = heros.find((hero) => {
+    return hero.age < 20;
+});
+```
+
+map
+```
+const array = [1,2,3];
+
+// [2,4,6]
+const doubledArray = array.map((number) => {
+    return number*2;
+});
+```
+
+### Callback Function
+```
+const greeting = (callbackFunction) => {
+    console.log('My Profile is');
+
+    // ()をつけて関数を実行する。
+    callbackFunction('taro', 'tanaka');
+};
+
+const showFullName = (firstName, lastName) => {
+    console.log(firstName + lastName);
+}
+
+// 関数名を渡す。
+greeting(showFullName);
+```
+```
+const greeting = (callback) => {
+    console.log('My Profile is');
+    callback('taro', 'tanaka');
+};
+
+greeting((firstName, lastName) => {
+    console.log(firstName + lastName);
+});
 ```
 
 ### Reference
