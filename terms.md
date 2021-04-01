@@ -108,3 +108,10 @@ Google Cloudの記事では、Rolling Updateと表現されていた。
 ⇔ Imperative: 命令的・指示的。
 ```
 [qiita: 宣言的？ Declarative?](https://qiita.com/Hiroyuki_OSAKI/items/f3f88ae535550e95389d)
+
+### ディレクティブ
+2021.04.01
+```
+directive: 指令
+プログラムを機械語に変換する際に、変換プログラム(コンパイラなど)に渡す指示や情報のこと。
+```
